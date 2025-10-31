@@ -1,0 +1,22 @@
+<html>
+<body>
+<center>
+<h2>Hover over the image</h2>
+<img id="pic" src="/home/ksb/saniya/images/bird.jpeg" width="400" 
+  onmouseover="change()" onmouseout="reset()">
+  
+ <p id="text">BE ALONE but,</p>
+ <script>
+  function change(){
+    document.getElementById("pic").src="/home/ksb/saniya/images/birds2.jpeg";
+    document.getElementById("text").innerHTML="ALWAYS KEEP A COMPANY";
+    }
+  function reset() 
+  {
+   document.getElementById("pic").src="/home/ksb/saniya/images/bird.jpeg";
+    document.getElementById("text").innerHTML="BE ALONE but,";
+    }
+    </script>
+    </center>
+ </body>
+ </html>
