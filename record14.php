@@ -115,10 +115,6 @@ input { width: 100%; margin: 11px 0; padding: 7px; }
 <span class="error"><?= $errors['confirm_password'] ?? '' ?></span>
 
 
-<label style="color:brown";>Phone:</label>
-<input type="text" name="phone" value="<?= $phone ?>">
-<span class="error"><?= $errors['phone'] ?? '' ?></span>
-
 
 
 
@@ -129,5 +125,4 @@ input { width: 100%; margin: 11px 0; padding: 7px; }
 </form>
 </body>
 </html>
-
 
